@@ -13,12 +13,13 @@ interface ServiceCardProps {
 export default function ServiceCard({ icon: Icon, title, description, link }: ServiceCardProps) {
   return (
     <motion.div
-      whileHover={{ y: -4 }}
-      className="glass-card rounded-2xl p-6 hover-lift"
+      whileHover={{ y: -8, scale: 1.02 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="premium-card rounded-2xl p-6 hover-lift"
     >
       <div className="flex flex-col h-full">
-        <div className="h-14 w-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
-          <Icon className="h-7 w-7 text-primary" />
+        <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-4 glow-effect group-hover:scale-110 transition-transform">
+          <Icon className="h-8 w-8 text-white" />
         </div>
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-muted-foreground text-sm mb-4 flex-grow">{description}</p>

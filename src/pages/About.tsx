@@ -39,11 +39,12 @@ export default function About() {
             className="text-center max-w-3xl mx-auto"
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About Health Home Care
+              About <span className="gradient-text">Doctor Home Care</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              For over 15 years, we've been Ethiopia's trusted partner in home healthcare,
-              bringing professional medical care and compassionate support directly to families.
+              For over 15 years, we've connected patients with Ethiopia's finest board-certified physicians
+              who provide premium medical care at home. Our network of expert doctors brings hospital-quality
+              consultations, treatments, and ongoing medical support directly to your doorstep.
             </p>
           </motion.div>
         </div>
@@ -83,9 +84,9 @@ export default function About() {
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  To deliver exceptional, compassionate home healthcare that empowers
-                  individuals to maintain their independence, dignity, and quality of life
-                  in the comfort of their own homes.
+                  To connect patients with expert physicians who deliver premium, personalized
+                  medical care at home, ensuring world-class healthcare is accessible, convenient,
+                  and delivered with the utmost compassion and professionalism.
                 </p>
               </div>
 
@@ -97,9 +98,9 @@ export default function About() {
                   <h2 className="text-3xl font-bold">Our Vision</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  To be Ethiopia's leading home healthcare provider, recognized for
-                  innovation, clinical excellence, and unwavering commitment to improving
-                  lives through personalized care.
+                  To be Ethiopia's premier platform connecting patients with the finest doctors,
+                  recognized for unparalleled medical expertise, innovation, and transforming
+                  healthcare delivery through personalized physician home visits.
                 </p>
               </div>
             </motion.div>
@@ -116,9 +117,9 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Core Values</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Core <span className="gradient-text">Values</span></h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              These principles guide everything we do
+              The principles that define our medical excellence
             </p>
           </motion.div>
 
@@ -152,9 +153,9 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Journey</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our <span className="gradient-text">Journey</span></h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              15 years of dedication to home healthcare excellence
+              15 years of connecting patients with Ethiopia's finest physicians
             </p>
           </motion.div>
 
@@ -163,22 +164,22 @@ export default function About() {
               {
                 year: "2010",
                 title: "Founded",
-                description: "Started with a small team of 10 caregivers serving Addis Ababa families.",
+                description: "Launched with 10 board-certified doctors providing home medical consultations in Addis Ababa.",
               },
               {
                 year: "2015",
                 title: "Expansion",
-                description: "Grew to 100+ caregivers and launched specialized dementia care programs.",
+                description: "Network grew to 50+ specialist physicians covering all major medical disciplines.",
               },
               {
                 year: "2020",
                 title: "Innovation",
-                description: "Introduced telehealth services and remote patient monitoring systems.",
+                description: "Pioneered virtual doctor consultations and advanced home diagnostic services.",
               },
               {
                 year: "2025",
                 title: "Leadership",
-                description: "Now serving 5,000+ patients with 200+ qualified healthcare professionals.",
+                description: "Now partnered with 200+ expert doctors serving 5,000+ patients across Ethiopia.",
               },
             ].map((milestone, index) => (
               <motion.div

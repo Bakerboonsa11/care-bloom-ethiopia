@@ -22,26 +22,26 @@ export default function Index() {
   const services = [
     {
       icon: Stethoscope,
-      title: "24/7 Skilled Nursing Care",
-      description: "Professional registered nurses providing post-operative care, IV therapy, wound management, and chronic disease monitoring.",
+      title: "Private Doctor Consultations",
+      description: "Board-certified physicians providing comprehensive medical examinations, diagnoses, and treatment plans at your home.",
       link: "/services/skilled-nursing",
     },
     {
       icon: Heart,
-      title: "Personal Care & Daily Living",
-      description: "Compassionate assistance with bathing, dressing, mobility, meal preparation, and medication reminders.",
+      title: "Specialized Medical Care",
+      description: "Expert doctors in cardiology, internal medicine, geriatrics, and chronic disease management visiting you regularly.",
       link: "/services/personal-care",
     },
     {
       icon: Activity,
-      title: "Physical & Occupational Therapy",
-      description: "Licensed therapists helping you regain strength, mobility, and independence through personalized at-home programs.",
+      title: "Medical Procedures & Therapy",
+      description: "Licensed medical professionals performing treatments, injections, wound care, and rehabilitation programs at home.",
       link: "/services/therapy",
     },
     {
       icon: Users,
-      title: "Dementia & Alzheimer's Care",
-      description: "Specialized memory care with trained staff providing safe, structured, and compassionate support.",
+      title: "Elderly & Chronic Care",
+      description: "Dedicated physicians specializing in geriatric medicine, dementia care, and ongoing health monitoring.",
       link: "/services/dementia-care",
     },
   ];
@@ -110,11 +110,12 @@ export default function Index() {
                 Licensed & Certified Caregivers
               </div>
               <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-                Trusted Home Care that Feels Like{" "}
-                <span className="text-primary">Family</span>
+                Expert Doctors Delivering{" "}
+                <span className="gradient-text">Premium Care</span>{" "}
+                at Your Home
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-                Professional nurses & caregivers, available 24/7. Personalized home nursing, therapy, and daily living care.
+                Board-certified physicians providing personalized medical care, consultations, and treatments in the comfort of your home. Available 24/7.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/book">
@@ -158,9 +159,9 @@ export default function Index() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Care Services</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Premium <span className="gradient-text">Medical Services</span></h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive home healthcare services tailored to your unique needs
+              Expert physicians providing comprehensive healthcare at your doorstep
             </p>
           </motion.div>
 
@@ -278,10 +279,10 @@ export default function Index() {
             className="glass-card rounded-3xl p-12 text-center max-w-4xl mx-auto"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to Get Started?
+              Ready for <span className="gradient-text">Expert Medical Care</span>?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Schedule a free consultation today. Our care coordinators are available 24/7 to answer your questions.
+              Schedule a consultation with our board-certified doctors today. Available 24/7 to provide premium medical care at your home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/book">
