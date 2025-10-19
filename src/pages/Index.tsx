@@ -16,7 +16,7 @@ import {
   Award,
   ArrowRight,
 } from "lucide-react";
-import heroImage from "@/assets/hero-caregiver.jpg";
+import heroImage from "./../../public/dr6.jpg";
 
 export default function Index() {
   const services = [
@@ -88,11 +88,12 @@ export default function Index() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url(${heroImage})`,
+            height: "100%",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -124,7 +125,7 @@ export default function Index() {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                <a href="tel:+251911234567">
+                <a href="tel:+251 492 74918">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto">
                     <Clock className="mr-2 h-5 w-5" />
                     Call Now — 24/7
@@ -293,7 +294,8 @@ export default function Index() {
               <a href="tel:+251911234567">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Clock className="mr-2 h-5 w-5" />
-                  Call +251 911 234567
+                  Call +251 492 74918
+                  
                 </Button>
               </a>
             </div>

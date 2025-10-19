@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import { Award, Heart, Shield, Users, Target, Globe } from "lucide-react";
-import teamPhoto from "@/assets/team-photo.jpg";
-
+import teamPhoto from "@/../public/dr4.jpg";
 export default function About() {
   const values = [
     {

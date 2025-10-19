@@ -76,9 +76,9 @@ export default function Layout({ children }: LayoutProps) {
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3">
-              <a href="tel:+251911234567" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+251 492 74918" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 inline mr-1" />
-                +251 911 234567
+               +251 492 74918
               </a>
               <Link to="/emergency">
                 <Button variant="outline" size="sm">Emergency</Button>

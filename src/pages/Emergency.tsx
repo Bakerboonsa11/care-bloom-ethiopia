@@ -52,10 +52,10 @@ export default function Emergency() {
             <p className="text-xl text-muted-foreground mb-8">
               If you or your loved one is experiencing a medical emergency, we're here to help immediately.
             </p>
-            <a href="tel:+251911234567">
+            <a href="tel:+251 492 74918">
               <Button variant="destructive" size="lg" className="text-lg h-16 px-8 animate-pulse">
                 <Phone className="mr-3 h-6 w-6" />
-                Call +251 911 234567 NOW
+                Call +251 492 74918 NOW
               </Button>
             </a>
           </motion.div>

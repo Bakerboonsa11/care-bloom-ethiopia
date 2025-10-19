@@ -17,12 +17,12 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+251 911 234567", "24/7 Emergency Line"],
+      details: ["+251 492 74918", "24/7 Emergency Line"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@healthhomecare.et", "Response within 24 hours"],
+      details: ["bakerb[nsa@gmail.com", "Response within 24 hours"],
     },
     {
       icon: MapPin,
